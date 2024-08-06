@@ -17,7 +17,7 @@ To install and run the application, follow these steps:
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/cpp-spreadsheet.git
+    git clone https://github.com/derekkim02cpp-spreadsheet.git
     ```
 2. Navigate to the project directory:
     ```sh
@@ -25,9 +25,8 @@ To install and run the application, follow these steps:
     ```
 3. Build the project using CMake:
     ```sh
-    mkdir build
+    cmake -B build
     cd build
-    cmake ..
     make
     ```
 
