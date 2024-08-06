@@ -1,5 +1,3 @@
 #include "spreadsheet.h"
 
-auto main() -> int {
-    
-}
+auto main() -> int {}

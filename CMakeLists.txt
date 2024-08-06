@@ -43,7 +43,15 @@ link_libraries(catch2_main)
 add_library(spreadsheet src/spreadsheet.h src/spreadsheet.cpp)
 link_libraries(spreadsheet)
 
+add_library(connect src/connect.h src/connect.cpp)
+link_libraries(connect)
+
 add_executable(main src/main.cpp)
+
 add_executable(spreadsheet_test_exe src/spreadsheet.test.cpp)
 add_test(spreadsheet_test spreadsheet_test_exe)
+
+add_executable(connect_test_exe src/connect.test.cpp)
+add_test(connect_test connect_test_exe)
+
 
